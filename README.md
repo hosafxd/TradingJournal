@@ -1,120 +1,145 @@
-  Trading Journal Application
-A comprehensive Java desktop application for traders to track, analyze and visualize their trading performance.
-Setup & Installation
-Requirements
+# 📊 Trading Journal Application
 
-Java JDK 17 or later
-JavaFX 17.0.9 or compatible version
+A **comprehensive Java desktop app** for traders to **track, analyze**, and **visualize** their trading performance.
 
-  Setup Instructions
+---
 
-Clone or download the repository
-git clone https://github.com/yourusername/trading-journal.git
+## ⚙️ Setup & Installation
 
-Configure JavaFX
+### 📋 Requirements
+- **Java JDK 17** or later  
+- **JavaFX 17.0.9** or compatible version  
 
-Download JavaFX SDK from Gluon
-Extract to a location (e.g., C:\javafx-sdk-17.0.9)
+### 🚀 Setup Instructions
 
+1. **Clone or Download the Repository**
+   ```bash
+   git clone https://github.com/yourusername/trading-journal.git
+   ```
 
-  Project Setup in NetBeans
+2. **Download JavaFX SDK**
+   - Get it from: [https://gluonhq.com/products/javafx/](https://gluonhq.com/products/javafx/)
+   - Extract to:  
+     `C:\javafx-sdk-17.0.9` *(or your preferred location)*
 
-Open NetBeans
-File → Open Project → Select project folder
-Right-click project → Properties
-Libraries → Add JAR/Folder → Add all JavaFX lib JARs to classpath
-Run → VM Options: --add-modules javafx.controls,javafx.base,javafx.graphics,javafx.fxml
+---
 
+## 🖥️ Project Setup in NetBeans
 
-  Build & Run
+1. **Open NetBeans**
+2. `File → Open Project → Select your project folder`
+3. Right-click the project → `Properties`
+4. Navigate to:
+   - **Libraries → Add JAR/Folder** → Add all JARs from `lib` folder of JavaFX SDK
+5. Under `Run → VM Options`, add:
+   ```
+   --add-modules javafx.controls,javafx.base,javafx.graphics,javafx.fxml
+   ```
 
-Clean and Build (F11)
-Run Project (F6)
+---
 
+## 🔨 Build & Run
 
+- **Build Project**: `F11`
+- **Run Project**: `F6`
 
-  Features & Functionality
--Multi-Account Management
+---
 
-Create and manage multiple trading accounts
-Seamlessly switch between accounts with separate data
-Account data is stored separately
+## 🌟 Features & Functionality
 
-  Trade Logging
+### 🧾 Multi-Account Management
+- Manage multiple trading accounts
+- Switch seamlessly between accounts
+- Each account stores data independently
 
--Log trades with essential information:
+---
 
-Symbol, Entry/Exit price, Size, Side (LONG/SHORT)
-Date, Duration, Returns, Balance
-Setup strategy and Entry type
+### 📈 Trade Logging
+- Log:
+  - Symbol, Entry/Exit Price, Size, Side (LONG/SHORT)
+  - Date, Duration, Returns, Balance
+  - Setup Strategy, Entry Type
+- Attach screenshots and notes to trades
 
+---
 
-Attach screenshots and notes to each trade
+### 📊 Performance Analysis
+- Dashboard Metrics:
+  - Win/Loss Ratio
+  - Total P&L
+  - Average Win/Loss
+  - Performance by Setup Type
+  - Best/Worst Trades
+- **Interactive Charts**:
+  - Profit/Loss over time
+  - Daily/Weekly/Monthly Trends
 
-  Performance Analysis
+---
 
-Dashboard with key metrics:
+### 📅 Calendar View
+- Color-coded monthly performance
+- Hover or click to view daily trades
+- Daily trade count & P&L summaries
 
-Win/Loss ratio, Total P&L, Average win/loss
-Performance by setup type
-Best and worst trades
+---
 
+### 📓 Trade Journal
+- Add rich notes per trade
+- Upload screenshots/charts
+- Strategy documentation
 
-Interactive charts for profit/loss tracking
-Performance trends (daily, weekly, monthly)
+---
 
-  Calendar View
+### ⚙️ Setup & Entry Type Management
+- Customize and manage trade setups
+- Note entry strategies with images
+- Analyze setups by performance
 
-Visual monthly calendar showing performance
-Color-coded days based on profitability
-Daily trade count and returns summary
-Click on days to view detailed trades
+---
 
-  Trade Journal
+### 🔄 Import & Export
+- **CSV Import/Export**
+- **Backup and Restore** functionality
 
-Add detailed notes to each trade
-Upload and attach screenshots/charts
-Document your strategy and review process
+---
 
-  Setup & Entry Type Management
+### 🎨 Modern UI
+- Dark-themed, responsive design
+- Searchable, filterable tables
 
-Create and manage custom trade setups
-Document entry strategies with notes and images
-Analyze performance by setup type
+---
 
-  Import/Export
+### 🔐 Data Storage & Privacy
+- Local storage only:  
+  `TradingJournalData` directory  
+- No cloud sync, complete privacy
 
-CSV data import/export
-Backup and restore functionality
+---
 
-  Modern UI
+### ⌨️ Keyboard Shortcuts
+| Action              | Shortcut     |
+|---------------------|--------------|
+| Add Trade           | `Ctrl + N`   |
+| Open Dashboard      | `Ctrl + D`   |
+| Calendar View       | `Ctrl + C`   |
+| Switch Account      | `Ctrl + Tab` |
 
-Dark-themed interface
-Interactive tables with search/filter
-Responsive layout
+---
 
-  Data Storage & Privacy
+## 📌 Additional Features
 
-All data is stored locally in TradingJournalData directory
-No external connections or cloud storage
-Complete privacy and data ownership
+- Set custom starting balance & risk parameters
+- Write and follow personal **trading rules**
+- **Symbol management** for faster entry
 
-  Keyboard Shortcuts
+---
 
-Add Trade: Ctrl+N
-Dashboard: Ctrl+D
-Calendar View: Ctrl+C
-Switch Account: Ctrl+Tab
+## 📬 Support & Contact
 
-  Additional Information
+For support, suggestions, or feature requests:  
+📧 **furkanozturk5406@hotmail.com**
 
-Account settings allow custom starting balance and risk parameters
-Trading rules section for documenting personal rules
-Symbol management for quick selection
+---
 
-For support or feature requests, please emaail me: 
-furkanozturk5406@hotmail.com
+> **The app is under active development. More features and visuals are coming soon — follow the repository to stay updated!**
 
-The features and data visualization will be enriched, follow for further implementations!
-
-Thank you for visiting.
